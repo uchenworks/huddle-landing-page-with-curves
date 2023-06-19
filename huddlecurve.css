@@ -1,0 +1,416 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+}
+
+/************* Typography **************/
+
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  font-size: 0.75rem;
+  text-align: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-top: 2em;
+  opacity: 80%;
+  color: hsl(192, 100%, 9%);
+}
+
+h1 {
+  color: hsl(192, 100%, 9%);
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 0.65rem;
+  opacity: 50%;
+}
+
+h3 {
+  font-size: 1.1rem;
+}
+
+p {
+  font-size: 0.75rem;
+  color: hsl(192, 100%, 9%);
+}
+.second-lock-up-text {
+  font-size: 1.1rem;
+}
+
+h6 {
+  opacity: 80%;
+  margin-bottom: 1em;
+}
+/************* Typography-End **************/
+
+/********************* Navigation-Section **********************/
+
+.nav-logo {
+  width: 6em;
+}
+
+header {
+  margin-top: 1em;
+  display: flex;
+  gap: 30%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.nav-btn {
+  padding: 0.35em 1.3em;
+  border-radius: 100px;
+  border: 1px solid hsl(322, 100%, 66%);
+  background: none;
+
+  color: hsl(322, 100%, 66%);
+}
+.nav-btn:hover {
+  border: hsl(321, 100%, 78%);
+}
+
+/**************** Navigation-Section_End *****************/
+
+/****************************** Layout-Containers ******************************/
+
+/* first-container-section */
+
+.first-container {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-started-btn {
+  margin-top: 3em;
+  border-radius: 100px;
+  padding: 0.85em 2.5em;
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  color: #fff;
+}
+
+.get-started-btn:hover {
+  background-color: hsl(321, 100%, 78%);
+}
+
+.mockup {
+  width: 20em;
+  height: 20em;
+  margin-top: 5em;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+}
+
+.message-text {
+  width: 3em;
+}
+
+/* first-container-section-end*/
+
+/* Illustration-containers-section-Start*/
+
+.illustration-containers {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  text-align: center;
+}
+
+.first-illustration,
+.third-illustration,
+.second-illustration {
+  width: 15em;
+  height: 10em;
+}
+
+.text-container {
+  margin-top: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.last-container {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.second-lock-up-text {
+  margin-bottom: 1em;
+}
+
+.second-btn {
+  margin-top: 0;
+}
+/* Illustration-containers-section-End*/
+
+/****************** Footer-section-Start************/
+
+.svg-footer-mobile {
+  height: 70em;
+  position: absolute;
+
+  bottom: auto;
+
+  left: 0;
+  z-index: 1;
+}
+
+.svg-footer-desktop {
+  display: none;
+}
+
+.footer-section {
+  margin-top: 5em;
+  position: relative;
+  top: 30em;
+  z-index: 2;
+
+  color: #fff;
+  margin-left: 1.5em;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 10em;
+}
+
+.footer-heading {
+  font-size: 1rem;
+  margin-bottom: 1em;
+  opacity: 100%;
+}
+
+.footer-logo {
+  width: 9em;
+}
+
+.icon-footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper {
+  margin-top: 2em;
+}
+
+.input-class {
+  margin-left: 20%;
+}
+
+input {
+  height: 37px;
+  margin-bottom: 1em;
+  border-radius: 3px;
+  border: none;
+  width: 250px;
+}
+
+.subcribe-btn {
+  padding: 0.65em 2.5em;
+
+  background-color: hsl(322, 100%, 66%);
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  margin-left: 55%;
+}
+
+.subcribe-btn:hover {
+  background-color: hsl(321, 100%, 78%);
+}
+
+.left-foooter-section {
+  margin-top: 4em;
+}
+
+.phone-class {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.email-class {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.social-icon {
+  width: 5em;
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  header {
+    margin-top: 1em;
+    display: flex;
+    gap: 40%;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h4 {
+    white-space: pre;
+    font-size: 0.85rem;
+  }
+
+  .mockup {
+    width: 40em;
+    height: 40em;
+  }
+  .info-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4em;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .illustration-containers {
+    position: relative;
+  }
+
+  p {
+    white-space: pre-line;
+  }
+
+  .first-illustration-text-container {
+    text-align: left;
+    position: absolute;
+    top: 1em;
+    left: 7em;
+  }
+
+  .first-illustration {
+    margin-left: 60%;
+  }
+
+  .second-illustration-text-container {
+    text-align: right;
+    position: absolute;
+    top: 13em;
+    left: 52%;
+  }
+
+  .second-illustration {
+    margin-right: 50%;
+  }
+
+  .third-illustration-text-container {
+    text-align: left;
+    position: absolute;
+    top: 25em;
+    left: 7em;
+  }
+
+  .third-illustration {
+    margin-left: 60%;
+  }
+
+  .last-container {
+    margin-top: 10em;
+  }
+
+  .second-lock-up-text {
+    font-size: 2rem;
+  }
+
+  .svg-footer-mobile {
+    display: none;
+  }
+
+  .svg-footer-desktop {
+    display: block;
+
+    width: 100%;
+    height: 60em;
+    position: absolute;
+
+    bottom: auto;
+
+    left: 0;
+    z-index: 1;
+  }
+
+  .footer-section {
+    margin-top: 1em;
+    position: relative;
+    top: 30em;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    margin-left: 4em;
+  }
+
+  .main-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 35em;
+  }
+
+  .input-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  input {
+    margin: 0;
+  }
+
+  .input-class {
+    margin-left: 0;
+  }
+
+  .subcribe-btn {
+    margin-left: 0;
+  }
+
+  .social-icon {
+    width: 5em;
+    position: relative;
+    top: 3em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .second-illustration-text-container {
+    text-align: right;
+    position: absolute;
+    top: 13em;
+    left: 60%;
+  }
+
+  .second-illustration {
+    margin-right: 61%;
+  }
+}
